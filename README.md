@@ -33,7 +33,7 @@ NPCs actually remember your history together! They track unique relational memor
 ### 🎲 True Game Master Logic
 The AI calls composite tools and writes a narrative in one message to save tokens and backend translated them into fuctions (like `modify_player_inventory`, `update_npc_mind`, or `create_container`). The AI gets total narrative freedom, while the Python backend keeps the actual gameplay mechanics completely stable.
 
-### 🪄 Autonomous Asset Generation (The Magic Part)
+### 🪄 Autonomous Asset Generation
 If the AI decides to narrate a brand-new item, room, or NPC that doesn't actually exist in the database yet, the backend catches it instantly. The engine automatically spins up valid stats, descriptions, and JSON definitions for it on the fly, seamlessly injecting it into the world without breaking the game loop.
 
 ### 🧠 Smart Context Building
