@@ -40,3 +40,5 @@ If the AI decides to narrate a brand-new item, room, or NPC that doesn't actuall
 To keep token counts low and stop the AI from hallucinating, the engine dynamically builds the system prompt every single turn. It only feeds the LLM the exact data it needs for the immediate scene, meaning the AI won't peek at hidden secrets or items inside closed chests until you actually investigate them.
 
 #### Built With Python
+
+*Scene image generation coming soon*
